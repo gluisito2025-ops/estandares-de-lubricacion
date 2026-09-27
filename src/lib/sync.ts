@@ -2,7 +2,7 @@ import { isCloudSyncEnabled, supabase } from './supabase'
 
 export const cloudSyncKeys = [
   'estandares-lubricacion:users',
-  'estandares-lubricacion:tonello-standard',
+  'estandares-lubricacion:machines',
 ]
 
 export async function pullFromCloud(): Promise<void> {
